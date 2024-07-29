@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Hydra Template
-url: "https://proud-alligator.cloudvent.net"
+title: Toni Bertólez-Martínez
+url: "https://tbertolez.github.io"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -10,15 +10,15 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product marketing template for Jekyll.
+description: Astroparticle PhD candidate.
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: Toni Bertólez-Martínez
+  email: antoni.bertolez@fqa.ub.edu
+  twitter: tbertolez
 social:
-  name: Hydra Template
+  name: Toni Bertólez
   links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
+    - "https://tbertolez.github.io"
 
 # -----
 # Build
