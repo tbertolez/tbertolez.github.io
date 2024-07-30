@@ -14,17 +14,44 @@
 	cursor: pointer;
 }
 
+// .button.alt a {
+// 	background: rgba(255,255,255,0.15);
+// 	border-radius: 3px;
+// 	border: 1px solid rgba(255, 255, 255, 0.3);
+// 	padding: 16px 50px;
+// }
+
+// .button.alt a:hover {
+// 	// background: #fff;
+// 	// color: $brand-color;
+// }
+
+// .button.alt a {
+// 	// background: #fff;
+// 	// color: $brand-color;
+// 	background: #F25C54;
+// 	color: $fff;
+// }
+
 .button.alt a {
-	background: rgba(255,255,255,0.15);
-	border-radius: 3px;
-	border: 1px solid rgba(255, 255, 255, 0.3);
-	padding: 16px 50px;
+display: inline-block;
+outline: none;
+cursor: pointer;
+font-weight: 600;
+border-radius: 5px;
+padding: 12px 24px;
+border: 0;
+color: #fff;
+background: $accent-color_light;
+line-height: 1.15;
+font-size: 16px;
 }
 
 .button.alt a:hover {
-	background: #fff;
-	color: $brand-color;
+	transition: all .1s ease;
+	box-shadow: 0 0 0 0 #fff, 0 0 0 3px #b5b5b550
 }
+
 
 textarea, input, button, select { font-family: inherit; font-size: inherit; }
 
@@ -64,4 +91,80 @@ input, textarea {
 input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, textarea:focus {
 	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
 	border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.researchicons {
+	body {
+		background-color:$accent-color_dark;
+		text-align:center;
+	  }
+	  
+	  div {
+		display: inline-block;
+		position:absolute;
+		top:0pt;
+		left:50%;
+		-ms-transform:translate(-50%,-50%);
+		-webkit-transform:translate(-50%,-50%);
+		transform:translate(-50%,-50%);
+	  }
+	  
+	  /* Icons */
+	  
+	  a {
+		color:#fff;
+		background: #ffffff70;
+		border-radius:4px;
+		text-align:center;
+		text-decoration:none;
+		font-size: 16pt;
+		position: relative;
+		display: inline-block;
+		width:50px;
+		height:36px;
+		padding-top:12px;
+		margin:0 8px;
+		-o-transition:all .5s;
+		-webkit-transition: all .5s;
+		-moz-transition: all .5s;
+		transition: all .5s;
+		 -webkit-font-smoothing: antialiased;
+		 margin-bottom: -12pt;
+	  }
+	  
+	  a:hover {
+		// background: #F9BEB4;
+		background: $accent-color_light;
+	  }
+
+	  /* Font settings for academicons */
+	  a:nth-of-type(1),
+	  a:nth-of-type(2),
+	  a:nth-of-type(3) {
+		font-family: 'academicons';
+	  }
+
+	  /* Font settings for fontawesome */
+	  a:nth-of-type(4),
+	  a:nth-of-type(5) {
+		font-family: 'fontawesome';
+	  }
+	  
+	  /* font awesome icons */
+	  
+	  a:nth-of-type(1):before {
+	  content:'\e9e9';
+	  }
+	  a:nth-of-type(2):before {
+	  content:'\e9d9';
+	  }
+	  a:nth-of-type(3):before {
+	  content:'\e974';
+	  }
+	  a:nth-of-type(4):before {
+	  content:'\f09b';
+	  }
+	  a:nth-of-type(5):before {
+	  content:'\f099';
+	  }
 }

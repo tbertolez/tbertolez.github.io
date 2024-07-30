@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Toni Bertólez-Martínez
+title: Researching nus! Toni Bertólez
 url: "https://tbertolez.github.io"
 baseurl:
 google_analytics_key:
@@ -12,7 +12,7 @@ disqus_shortname:
 logo: /siteicon.png
 description: Astroparticle PhD candidate.
 author:
-  name: Toni Bertólez-Martínez
+  name: Toni Bertólez
   email: antoni.bertolez@fqa.ub.edu
   twitter: tbertolez
 social:
