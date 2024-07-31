@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Researching nus!
+title: Toni Bertólez
 url: "https://tbertolez.github.io"
 baseurl:
 google_analytics_key:
@@ -10,7 +10,7 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Astroparticle PhD candidate.
+description: 
 author:
   name: Toni Bertólez
   email: antoni.bertolez@fqa.ub.edu
