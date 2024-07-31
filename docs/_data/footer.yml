@@ -1,39 +1,39 @@
 - links:
-  - name: Pricing
-    link: /pricing/
-  - name: Blog
-    link: /blog/
-  - name: About
-    link: /about/
-  - name: Contact
-    link: /contact/
+  - name: About me
+    link: /aboutme/
+  - name: Research
+    link: /research/
+  - name: Outreach
+    link: /outreach/
+  - name: CV
+    link: /cv/
+# - links:
+#   - name: Login
+#     link: /
+#     new_window: true
+#   - name: Sign Up
+#     link: /
+#     new_window: true
+#   - name: Docs
+#     link: /
+#     new_window: true
+#   - name: Status
+#     link: /
+#     new_window: true
 - links:
-  - name: Login
-    link: /
+  - name: InspireHEP
+    link: https://inspirehep.net/authors/2010387
     new_window: true
-  - name: Sign Up
-    link: /
+    social_icon: InspireHEP
+  - name: ORCID
+    link: https://orcid.org/0000-0002-4586-6508
+    social_icon: ORCID
     new_window: true
-  - name: Docs
-    link: /
+  - name: GitHub
+    link: https://github.com/tbertolez
+    social_icon: GitHub
     new_window: true
-  - name: Status
-    link: /
-    new_window: true
-- links:
-  - name: Facebook
-    link: https://facebook.com/cloudcannon/
-    new_window: true
-    social_icon: Facebook
   - name: Twitter
-    link: https://twitter.com/cloudcannon/
+    link: https://x.com/tbertolez
     social_icon: Twitter
     new_window: true
-  - name: YouTube
-    link: https://youtube.com/cloudcannon/
-    social_icon: YouTube
-    new_window: true
-  - name: RSS
-    link: /feed.xml
-    social_icon: RSS
-    new_window: false
