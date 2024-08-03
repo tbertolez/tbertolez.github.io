@@ -63,6 +63,11 @@ defaults:
       path: "contact.html"
     values:
       full_width: true
+  - scope:
+      path: "outreach/index.html"
+    values:
+      layout: "default"
+      full_width: true
 
 jekyll-archives:
   enabled:
