@@ -5,7 +5,7 @@
 <g id="layer-icon">
 <style>
 	path {
-	fill: white;
+	fill: "#F27059";
 	}
     @media (prefers-color-scheme: dark) {
       path {
