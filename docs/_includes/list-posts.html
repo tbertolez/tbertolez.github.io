@@ -1,10 +1,22 @@
 {% for post in include.posts %}
 	<li class="blog-post">
-		<h3><a href="{% include relative-src.html src=post.url %}">{{ post.title }}</a></h3>
-		{% include post-title.html post=post %}
-		<div class="post-content">
-			{{ post.excerpt }}
-			<div class="button"><a href="{% include relative-src.html src=post.url %}">Read More</a></div>
+		<div class="container flex">
+			<div class = "container">
+				<h3><a href="{% include relative-src.html src=post.url %}">{{ post.title }}</a></h3>
+				<p class = "authors editable">{{ post.author_staff_member }}</p>
+				<p class = "publication editable">{{ post.ref }}</p>
+				{% include post-title.html post=post %}
+				<div class="post-content">
+					{{ post.excerpt }}
+					<div class = "container flex readmore">
+						<div class="button-research"><a href="{% include relative-src.html src=post.url %}">Read more</a></div>
+						<div class="button-research arxiv"><a href="{{ post.arxiv }}" target= "_blank">Read it on the arXiv</a></div>
+					</div>
+				</div>
+			</div>
+		<div class="image">
+			<img src="{{ post.image }}" alt="Del buit al tot logo" class="research-icon editable" />
+		</div>
 		</div>
 	</li>
 {% endfor %}

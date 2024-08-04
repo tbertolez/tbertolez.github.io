@@ -30,7 +30,7 @@ collections:
     _hide_content: true
 
 paginate: 10
-paginate_path: "/blog/:num/"
+paginate_path: "/research/:num/"
 permalink: pretty
 
 defaults:
@@ -67,6 +67,11 @@ defaults:
       path: "outreach/index.html"
     values:
       layout: "default"
+      full_width: true
+  - scope:
+      path: "research/index.html"
+    values:
+      # layout: "default"
       full_width: true
 
 jekyll-archives:

@@ -3,14 +3,23 @@
 	padding: 0;
 
 	li {
-		margin: 100px 0;
+		margin: 50px 0;
 	}
 }
 
 .blog-post {
+
+	// border: 2px solid #000; /* Border color and thickness */
+	transform: translate(-12.5%, 0%);
+	width: 125%;
+	border-radius: 8px;    /* Rounded corners */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Drop shadow */
+	padding: 40px 0 50px 0;          /* Padding inside the box */
+	background-color: #fff; /* Background color of the box */
+
 	.author {
 		padding: 30px 0 0 0;
-		border: 1px solid #eee;
+		border: 1px solid $accent-color_light;
 		margin: 30px 0;
 		font-size: .8em;
 
@@ -24,13 +33,96 @@
 		}
 	}
 
-	h3 {
+	.authors {
+		margin: 6pt 0 0 2pt;
+		font-size: 1.2em;
+	}
+
+	.publication {
+		margin: 2pt 0 0 2pt;
+		font-size: 1em;
+		font-style: italic;	
+	}
+
+	.readmore {
 		margin: 0;
+		margin-left: -15pt;
+		gap: 1em;
+	}
+
+	// .button-research {
+	// 	display: inline-block;
+	// 	outline: none;
+	// 	cursor: pointer;
+	// 	font-weight: 600;
+	// 	border-radius: 5px;
+	// 	padding: 12px 24px;
+	// 	border: 0;
+	// 	color: #fff;
+	// 	background: $accent-color_light;
+	// 	line-height: 1.15;
+	// 	font-size: 16px;
+	// 	text-decoration: none; /* Remove underline from the link */
+	// 	position: relative; /* Ensure positioning is relative for the button */
+	//   }
+	  
+	  .button-research a:hover {
+		transition: all .1s ease;
+		background: $accent-color_dark;
+		box-shadow: 0 0 0 0 #fff, 0 0 0 3px #b5b5b550;
+	  }
+	  
+	  .button-research a {
+		display: inline-block; /* Make the anchor tag a block-level element */
+		outline: none;
+		cursor: pointer;
+		font-weight: 600;
+		border-radius: 5px;
+		padding: 12px 24px;
+		border: 0;
+		color: #fff;
+		background: $accent-color_light;
+		line-height: 1.15;
+		font-size: 16px;
+		// width: 100%; /* Ensure it covers the full width of the button */
+		// height: 100%; /* Ensure it covers the full height of the button */
+		// color: inherit; /* Inherit the color from the button */
+		text-decoration: none; /* Remove underline from the link */
+		// position: absolute; /* Position absolutely to cover the button */
+		// top: 0; /* Align to the top */
+		// left: 0; /* Align to the left */
+		// padding-left: 24px; /* Space for the icon */
+		// box-sizing: border-box; /* Include padding in width/height calculation */
+	  }
+	  
+	//   .button-research.arxiv a::before {
+	// 	content: "\e974"; /* Use the correct Unicode for the icon */
+	// 	font-family: 'academicons';
+	// 	position: absolute;
+	// 	left: 0;
+	// 	font-size: 20px; /* Adjust icon size */
+	// 	vertical-align: middle; /* Align the icon with the text */
+	// 	color: #fff; /* Ensure the icon is white */
+	//   }
+	  
+	//   .button-research.arxiv a::after {
+	// 	content: ""; /* Ensure no additional text appears */
+	// 	font-size: 0; /* Hide the text visually */
+	// 	visibility: hidden; /* Hide the text visually */
+	// 	height: 0; /* Hide the text visually */
+	// 	overflow: hidden; /* Hide the text visually */
+	//   }
+	  
+	
+		
+
+	h3 {
+		margin: 0 0 0 2pt;
 		a {
 			color: #000;
 			text-decoration: none;
-			font-weight: normal;
-			font-size: 1.3em;
+			font-weight: bold;
+			font-size: 1.5em;
 		}
 	}
 

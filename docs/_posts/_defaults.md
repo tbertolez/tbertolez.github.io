@@ -3,4 +3,7 @@ title:
 categories:
 author_staff_member:
 date:
+ref:
+image:
+arxiv:
 ---
