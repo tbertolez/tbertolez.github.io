@@ -37,7 +37,7 @@
   </span>
 - _What is the origin of the ANITA-IV events?_.<br>
   <span class = "small-text"> 
-    Flash talk at the Third Annual EuCAPT Symposium 2023, **CERN**.
+    Flash talk at the Third Annual EuCAPT Symposium 2023, **CERN**. Won the best talk award.
   </span>
 
 # Teaching experience
