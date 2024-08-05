@@ -1,19 +1,19 @@
 
 
 # Research experience
-- **PhD in Physics**, FPI contract at the Universitat de Barcelona.<br> 
+- **2021 - 2025: PhD in Physics**, FPI contract at the Universitat de Barcelona.<br> 
   <span class = "small-text"> 
     _Massive neutrinos as a window to new Physics in Particle Physics, Astrophysics and Cosmology_, supervised by Dr. Jordi Salvadó.  
   </span>
-- **FNAL secondment**, _ASYMMETRY network_. <br>
+- **2024: FNAL secondment**, _ASYMMETRY network_. <br>
   <span class = "small-text"> 
     3 months stay in the Fermilab National Accelerator Laboratory, working on neutrino cosmology and ultra-high-energy neutrinos.
   </span>
-- **Postgraduate Research Fellowship**, _Institut de Ciències del Cosmos_.<br>
+- **2019 - 2020: Postgraduate Research Fellowship**, _Institut de Ciències del Cosmos_.<br>
   <span class = "small-text"> Award to undergo a year-long Master's thesis. </span>
-- **Undergraduate Research Fellowship**, _Spanish Ministry of Education_.<br>
+- **2018 - 2019: Undergraduate Research Fellowship**, _Spanish Ministry of Education_.<br>
   <span class = "small-text"> Award to undergo a year-long Bachelor's thesis. </span>
-- **Undergraduate Research Fellowship**, _Deutsches Elektronen-Synchrotron (DESY)_.<br>
+- **2018: Undergraduate Research Fellowship**, _Deutsches Elektronen-Synchrotron (DESY)_.<br>
   <span class = "small-text"> Summer student working at the European XFEL under the supervision of Sabine Cunis. </span>
 
 # Education

@@ -7,19 +7,13 @@
     link: /outreach/
   - name: CV
     link: /cv/
-# - links:
-#   - name: Login
-#     link: /
-#     new_window: true
-#   - name: Sign Up
-#     link: /
-#     new_window: true
-#   - name: Docs
-#     link: /
-#     new_window: true
-#   - name: Status
-#     link: /
-#     new_window: true
+- links:
+  - name: Contact
+    link: mailto:antoni.bertolez@fqa.ub.edu
+    social_icon: Mail
+  - name: Univ. Barcelona
+    link: https://icc.ub.edu/people/667
+    social_icon: Location
 - links:
   - name: InspireHEP
     link: https://inspirehep.net/authors/2010387

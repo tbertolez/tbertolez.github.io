@@ -73,6 +73,16 @@ defaults:
     values:
       # layout: "default"
       full_width: true
+  - scope:
+      path: "cv/index.html"
+    values:
+      # layout: "default"
+      full_width: true
+  - scope:
+      path: "aboutme/index.html"
+    values:
+      layout: "default"
+      full_width: true
 
 jekyll-archives:
   enabled:
@@ -90,6 +100,8 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
+
+markdown: kramdown
 
 # -----------
 # CloudCannon
