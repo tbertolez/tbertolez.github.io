@@ -1,21 +1,32 @@
-.text-xxss{
-    text-align: left;
-	gap: 4em;
+.texts-xxss {
+	gap: 2em;
+	padding-top: 1.2em;
+	padding-bottom: 1em;
 
-	b {
-		font-weight: bold;
-		color: $brand-color;
-	}
+}
+
+.text-xxss{
+	width: 100%;
+	border-radius: 8px;    /* Rounded corners */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Drop shadow */
+	// padding: 30px 0 35px 0;          /* Padding inside the box */
+	// padding: 1000px;
+	background-color: #fff; /* Background color of the box */
+    text-align: left;
+	// gap: 4em;
 
     h2 {
-        margin-top: 30pt;
-        margin-bottom: 28pt;
-        text-align:left;
+        margin-top: 15pt;
+        margin-bottom: 0pt;
+		font-size: 16pt;
+		font-weight: bold;
+		color: $brand-color;
+        text-align:center;
     }
 
     p {
-		font-size: 15pt;
-        // margin-bottom: -10pt;
+		font-size: 12pt;
+        margin-bottom: 20pt;
     }
 }
 

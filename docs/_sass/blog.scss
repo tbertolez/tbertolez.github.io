@@ -1,5 +1,6 @@
 .blog-posts {
 	list-style: none;
+	width: 100%;
 	padding: 0;
 
 	li {
@@ -10,11 +11,11 @@
 .blog-post {
 
 	// border: 2px solid #000; /* Border color and thickness */
-	transform: translate(-12.5%, 0%);
-	width: 125%;
+	// transform: translate(-12.5%, 0%);
+	width: 100%;
 	border-radius: 8px;    /* Rounded corners */
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Drop shadow */
-	padding: 40px 0 50px 0;          /* Padding inside the box */
+	padding: 30px 0 35px 0;          /* Padding inside the box */
 	background-color: #fff; /* Background color of the box */
 
 	.author {
@@ -35,12 +36,12 @@
 
 	.authors {
 		margin: 6pt 0 0 2pt;
-		font-size: 1.2em;
+		font-size: 13pt;
 	}
 
 	.publication {
 		margin: 2pt 0 0 2pt;
-		font-size: 1em;
+		font-size: 12pt;
 		font-style: italic;	
 	}
 
@@ -122,12 +123,16 @@
 			color: #000;
 			text-decoration: none;
 			font-weight: bold;
-			font-size: 1.5em;
+			font-size: 16pt;
 		}
 	}
 
 	h2 {
 		text-align: left;
+	}
+
+	p {
+		font-size: 14pt;
 	}
 
 	.blog-navigation {
