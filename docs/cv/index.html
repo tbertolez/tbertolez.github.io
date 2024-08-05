@@ -1,26 +1,24 @@
 ---
-title: Curriculum Vitae
-description: This is my CV (under construction).
+title:   
+description: 
 ---
+<section class="hero hero-research">
+	<div class="text-container">
+		<h1 class="editable"><strong>Curriculum vitae</strong></h1>
+		<p class="subtext editable">This is my trajectory up to now.<br>Who knows where will it lead to? :)</p>
+	</div>
+</section>
 
-<div class="text-container">
-	<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Post</a></p>
-	<ul class="blog-posts">
-		{% include list-posts.html posts=paginator.posts %}
-	</ul>
-
-	{% if paginator.total_pages > 1 %}
-		<!-- Pagination links -->
-		<div class="pagination">
-			{% if paginator.previous_page %}
-				<a href="{% include relative-src.html src=paginator.previous_page_path %}" class="previous btn">&larr; Newer posts</a>
-			{% endif %}
-
-			<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
-
-			{% if paginator.next_page %}
-				<a href="{% include relative-src.html src=paginator.next_page_path %}" class="next btn">Older posts &rarr;</a>
-			{% endif %}
-		</div>
-	{% endif %}
+<div class = "content">
+    <div class = "text-container">
+        <p>Here follows a brief and personal selection of my Curriculum Vitae.<br>If interested, please visit the full version through the following link. </p>
+        <div class="cta button alt cv-button"><a href="{{ site.baseurl }}/files/cv.pdf">Full Curriculum Vitae</a></div>
+    </div>
+    <div class = "text-container cv-text">
+        <h1> </h1>
+        {% capture cv_content %}
+            {% include cv.markdown %}
+        {% endcapture %}
+        {{ cv_content | markdownify }}
+    </div>
 </div>

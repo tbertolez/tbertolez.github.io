@@ -9,5 +9,37 @@
 
 .research-icon {
     width: 13em;
-	border-radius: 8px;    /* Rounded corners */
+	border-radius: 8px;
+    text-align: center; 
+}
+
+.cv-text {
+	font-family: "San Francisco", "Helvetica", "Helvetica Neue";
+    // font-weight: 200;
+
+    h1 {
+        font-family: "Helvetica Neue";
+    }
+
+    b {
+        font-weight: bold;
+    }
+
+    i {
+        font-style: italic;
+    }
+
+    li {
+        margin-bottom: 5px;
+        font-size: 13pt;
+    }
+
+    .small-text {
+        font-size: 12pt;
+    }
+}
+
+.cv-button {
+    text-align: center;
+    margin-top: 10pt;
 }
