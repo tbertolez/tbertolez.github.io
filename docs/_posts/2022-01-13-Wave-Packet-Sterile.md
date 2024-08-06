@@ -7,7 +7,7 @@ categories:
   - Sterile neutrinos
 author_staff_member: C. A. Argüelles, TBM, J. Salvadó
 ref: Phys.Rev.D 107 (2023) 3, 036004
-image: "/images/delbuitaltot.png"
+image: "/images/wpdaya.png"
 arxiv: https://arxiv.org/abs/2201.05108
 ---
 
