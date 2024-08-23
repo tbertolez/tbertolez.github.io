@@ -31,7 +31,8 @@ collections:
 
 paginate: 10
 paginate_path: "/research/:num/"
-permalink: pretty
+# permalink: pretty
+permalink: /:categories/:year/:month/:day/:title/
 
 defaults:
   - scope:
@@ -94,6 +95,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-paginate
+  # - jekyll-spaceship
 
 exclude:
   - Gemfile
@@ -102,6 +104,7 @@ exclude:
   - LICENCE
 
 markdown: kramdown
+
 
 # -----------
 # CloudCannon
@@ -126,3 +129,26 @@ _comments:
   highlight: Emphasis the text
   color: The background colour used in the plan name and call to action.
   new_window: Open link in new window
+
+# jekyll-spaceship:
+#   # default enabled processors
+#   processors:
+#     - mathjax-processor
+#   mathjax-processor:
+#     src:
+#       - https://polyfill.io/v3/polyfill.min.js?features=es6
+#       - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+#     config:
+#       tex:
+#         inlineMath:
+#           - ['$','$']
+#           - ['\(','\)']
+#         displayMath:
+#           - ['$$','$$']
+#           - ['\[','\]']
+#       svg:
+#         fontCache: 'global'
+#     optimize: # optimization on building stage to check and add mathjax scripts
+#       enabled: true # value `false` for adding to all pages
+#       include: []   # include patterns for math expressions checking (regexp)
+#       exclude: []   # exclude patterns for math expressions checking (regexp)
