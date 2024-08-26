@@ -12,9 +12,9 @@ arxiv: https://arxiv.org/abs/2201.05108
 usemathjax: true
 ---
 
-<!-- Check this for adding captions to images https://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll 
-Also to change the size of images: https://stackoverflow.com/questions/14675913/changing-image-size-in-markdown
--->
+<!-- This is to remove the excerpt -->
+
+---
 
 In the usual formulation of neutrino oscillations, the probability of conversion from a flavor $$ \alpha $$ to a flavor $$ \beta $$ is given by
 
@@ -48,11 +48,14 @@ where $$\sigma_x$$ is the width in position space of the neutrino wave packet. T
 
 The wave packet width is an unknown variable, and the most tightening experimental bound is $$\sigma_x > 2.1\times 10^{-4}\,\mathrm{nm}$$ [1]. This bound is such that it does not affect standard oscillations, but can affect low-energy sterile neutrino searches. 
 
-![Experiments affected by wave packet formalism]({{site.url}}/images/wp-experiments.png)
+<!-- ![Experiments affected by wave packet formalism]({{site.url}}/images/wp-experiments.png) -->
+<img src="{{site.url}}/images/wp-experiments.png" alt="Experiments affected by wave packet formalism"/>
+*Overview of neutrino experiments and relevant scales. Here $$L^{\mathrm{osc}},L^{\mathrm{coh}}$$ are computed using $$\Delta m_{14}^2 = 1\,\mathrm{eV}$$ and $$\sigma_x = 2.1\times 10^{-4}\, \mathrm{nm}$$. Decoherence effects are expected at $$L\gtrsim L^{\mathrm{coh}}$$, but are only distinguishable from averaged oscillations if $$L\sim L^{\mathrm{osc}}$$. Thus, nuclear reactor and gallium experiments are the most affected.*
 
 In this paper we study how does the neutrino wave packet formalism affect $$\mathcal{O}(\mathrm{eV})$$ sterile neutrino searches in reactor experiments (DayaBay, NEOS, PROSPECT) and gallium experiments (BEST). We find that bounds from nuclear reactor experiments are reduced by a factor up to 5, and the allowed region from BEST expands slightly. 
 
-![Bounds with and without the wave packet formalism]({{site.url}}/images/wpdaya.png)
+<img src="{{site.url}}/images/wpdaya.png" alt="Bounds with and without the wave packet formalism"/>
+*Effect of finite wave packet width on all the reactor and gallium experiments studied. The solid pink and solid blue contours bound the exclusion region at two sigma for the plane wave approximation and wave packet formalism, respectively. The preferred region at two sigma for the BEST experiment is shaded for the plane wave approximation (pink) and the wave packet formalism (blue). All contours are obtained using $$\sigma_x = 2.1\times 10^{-4}\, \mathrm{nm}$$.*
 
 Therefore, we conclude that the wave packet formalism must be checked in experimental analysis when looking for sterile neutrinos. Interestingly, this formalism helps erasing the tension between reactor and gallium experiments. However, still a stronger tension remains with solar neutrinos, which this formalism cannot address. 
 

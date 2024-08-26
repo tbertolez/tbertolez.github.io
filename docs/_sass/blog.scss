@@ -191,6 +191,40 @@
 	}
 }
 
+.prev {
+	font-size: 15pt;
+}
+
+.next {
+	font-size: 15pt;
+}
+
+.blog-text {
+	font-size: 11pt;
+
+	img {
+		// width: %;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+
+		max-height: 22em;
+		max-width: 100%;
+		height: auto;
+		width: auto;
+	}
+
+	img + em {
+		display: block;
+		margin-top: 6pt;
+		margin-left: 2.5em;
+		margin-right:2.5em;
+		text-align: left;
+		font-size: 10pt;
+		line-height: 16pt;
+	}
+}
+
 .pagination {
 	text-align: center;
 }
@@ -224,4 +258,4 @@
 	}
 }
 
-img[alt=drawing] { width: 200px; }
+// img[alt=drawing] { width: 200px; }
